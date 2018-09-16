@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<bean id="userDao" class="com.wut.store.dao.impl.UserDaoImpl"/>
+	<bean id="productDao" class="com.wut.store.dao.impl.ProductDaoImpl"/>
+	<bean id="categoryDao" class="com.wut.store.dao.impl.CategoryDaoImpl"/>
+	<bean id="orderDao" class="com.wut.store.dao.impl.OrderDaoImpl"/>
+	
+	<bean id="userService" class="com.wut.store.service.impl.UserServiceImpl"/>
+	<bean id="productService" class="com.wut.store.service.impl.ProductServiceImpl"/>
+	<bean id="categoryService" class="com.wut.store.service.impl.CategoryServiceImpl"/>
+	<bean id="orderService" class="com.wut.store.service.impl.OrderServiceImpl"/>
+</beans>
